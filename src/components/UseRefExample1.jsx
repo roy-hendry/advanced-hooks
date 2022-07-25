@@ -1,5 +1,7 @@
 import { useRef } from "react";
 
+// UseRef is another way that we can change states. The biggest benefit of using it is that we can create a DOM reference
+
 function UseRefExample1() {
 	const inputRef = useRef();
 	const paraRef = useRef();
