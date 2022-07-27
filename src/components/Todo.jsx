@@ -15,7 +15,7 @@ function Todo() {
 						setTodo(data);
 						setLoading(false);
 					}
-				}, 3000);
+				}, 1000);
 			});
 
 		// Runs when component is unmounted
