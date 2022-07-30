@@ -1,5 +1,9 @@
 import React, { useState, useCallback } from "react";
 
+// Made so the button doesn't need to be re-rendered each time it is pressed
+// Can be very valuable to save processing power
+// Used to optimize the rendering behaviour of react function components
+
 function UseCallbackExample() {
 	const [tasks, setTasks] = useState([]);
 

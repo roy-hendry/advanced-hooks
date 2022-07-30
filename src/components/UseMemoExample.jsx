@@ -1,5 +1,9 @@
 import { useState, useEffect, useRef, useMemo } from "react";
 
+// Used to speed up some processes, especially useful when working with very expensive functions
+// The UseMemo hook only runs when one of it's dependencies has been updated
+// Effectively memoized data is just cached data that does not need to be recalculated so that is why it is helpful for things like this
+
 function UseMemoExample() {
 	const [number, setNumber] = useState(1);
 	const [inc, setInc] = useState(0);

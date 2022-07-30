@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+// useFetch can be used in place of Axios to make requests
+
 function useFetch(url, options) {
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(null);
